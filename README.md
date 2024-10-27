@@ -40,7 +40,8 @@ It provides an API for project and task management (CRUD), and also includes aut
 
 ## Установка  / Installation
 
-1. 
+1. Клонируйте репозиторий / Clone the repository:
+
 ```bash
 git clone https://github.com/ElenaSulina/todo-list.git
 ```
@@ -64,6 +65,7 @@ JWT_KEY=ASAKLKJ35Y3M
 ## Запуск приложения / Running the app
 
  Убедитесь, что у вас установлены Docker и Docker Compose. / Ensure that you have Docker and Docker Compose installed.
+
     ```bash
     docker-compose up --build
     ```
