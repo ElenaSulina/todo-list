@@ -22,7 +22,7 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Описание
+## Описание / Description
 
 Проект включает в себя бэкенд для приложения Todo list, выполнен с использованием следующих технологий:
 - Nest JS
@@ -38,48 +38,40 @@ Project is a backend for a Todo list application. The following technologies hav
 
 It provides an API for project and task management (CRUD), and also includes authentication and role management functionality.
 
-## Installation
+## Установка  / Installation
 
+1. 
 ```bash
-$ npm install
+git clone https://github.com/ElenaSulina/todo-list.git
 ```
 
-## Running the app
-
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+cd todo-list
 ```
 
-## Test
-
+2. В корневую папку добавьте файл .env и скопируйте туда следующие данные / Add .env file to the root folder and copy the following data there:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+PORT=3000
+POSTGRES_HOST=todo-db
+POSTGRES_USER=postgres
+POSTGRES_DB=todo-list
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+PRIVATE_KEY=Markiz
+JWT_KEY=ASAKLKJ35Y3M
 ```
 
-## Support
+## Запуск приложения / Running the app
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+ Убедитесь, что у вас установлены Docker и Docker Compose. / Ensure that you have Docker and Docker Compose installed.
+    ```bash
+    docker-compose up --build
+    ```
 
-## Stay in touch
+Приложение доступно по адресу / The app is available at [http://localhost:3000](http://localhost:3000)
+Документация доступна по адресу / The documentation is available at [http://localhost:3000/api](http://localhost:3000/api)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Для остановки контейнеров выполните команду ниже / To stop the container run the command below:
+```bash
+docker-compose down
+```
