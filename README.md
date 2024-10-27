@@ -66,9 +66,9 @@ JWT_KEY=ASAKLKJ35Y3M
 
  Убедитесь, что у вас установлены Docker и Docker Compose. / Ensure that you have Docker and Docker Compose installed.
 
-    ```bash
-    docker-compose up --build
-    ```
+  ```
+  docker-compose up --build
+  ```
 
 Приложение доступно по адресу / The app is available at [http://localhost:3000](http://localhost:3000)
 Документация доступна по адресу / The documentation is available at [http://localhost:3000/api](http://localhost:3000/api)
