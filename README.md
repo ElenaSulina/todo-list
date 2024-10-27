@@ -31,6 +31,13 @@
 
 Он предоставляет API для управления проектами и задачами (CRUD), а также включает функциональность аутентификации и управления ролями.
 
+Project is a backend for a Todo list application. The following technologies have been used:
+- Nest JS
+- TypeORM
+- PostgreSQL
+
+It provides an API for project and task management (CRUD), and also includes authentication and role management functionality.
+
 ## Installation
 
 ```bash
