@@ -7,7 +7,7 @@
 - Swagger
 - Docker / Docker compose
 
-Он предоставляет API для управления проектами и задачами (CRUD), а также включает функциональность аутентификации и управления ролями.
+Он предоставляет API для управления проектами и задачами (CRUD), а также включает функциональность аутентификации аутентификации через JWT и управления ролями.
 
 Project is a backend for a Todo list application. The following technologies have been used:
 - Nest JS
@@ -16,7 +16,7 @@ Project is a backend for a Todo list application. The following technologies hav
 - Swagger
 - Docker / Docker compose
 
-It provides an API for project and task management (CRUD), and also includes authentication and role management functionality.
+It provides an API for project and task management (CRUD), and also includes authentication via JWT and role management functionality.
 
 ## Установка  / Installation
 
