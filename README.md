@@ -35,6 +35,7 @@ Project is a backend for a Todo list application. The following technologies hav
 - Nest JS
 - TypeORM
 - PostgreSQL
+- Swagger
 
 It provides an API for project and task management (CRUD), and also includes authentication and role management functionality.
 
